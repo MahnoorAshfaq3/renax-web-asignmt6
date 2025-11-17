@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +14,6 @@
   </div>
   <div class="topnav">
   <a href="index.html" target="_self">Home</a>
-  
   <a href="service.html"target="_self">services</a>
   <a href="car.html"target="_self">car</a>
   <div class=dropdown><a href="">Pages <i class="fa fa-caret-down"></i></a>
@@ -34,7 +32,7 @@
 </div>
 <script>
 function myFunction() {
-  var x = document.getElementById("myTopnav");
+  var x = document.getElementById("header");
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
@@ -44,14 +42,13 @@ function myFunction() {
 </script>
 
 <div id="homesection">
-  <!--backgroung-image with the text on it-->
+  
   <div class =left1>
   <p>PREMIUM</p>
   <h1>Rental Car</h1>
   <h3><B>Bently Bentayga <span><B>600$</span></B><sub>/DAY</sub></B></h3>
-  
-  <a href=""><button class="button2">View Details ></button></a>
-  <a href=""><button class="button3">Rent Now ></button></a>
+  <a href="car.html"><button class="button2">View Details ></button></a>
+  <a href="car.html"><button class="button3">Rent Now ></button></a>
   </div>
   </div>
 </div>
@@ -61,26 +58,24 @@ function myFunction() {
     <h2>We Are More Than <br><span>A Car Rental Company</span></h2>
     <p>At RENAX, we’re not just in the business of renting cars — we’re in the business of creating freedom, convenience, and memorable journeys. Whether you're traveling for work, adventure, or everyday needs, we go beyond transportation to deliver comfort, reliability, and exceptional service every step of the way.
        From a diverse fleet of well-maintained vehicles to seamless online booking and personalized support, we provide an experience designed around you. Need a long-term rental? A luxury car for a special occasion? Help with travel planning? We’re here to make it happen..</p>
-    <button>Read More ></button>
+    <a href="service.html"><button>Read More ></button></a>
    </div>
    <div class="right">
     <img src="image/image3.jpg" alt="saleswomen" width="400px" height="400px">
-
    </div>
 </div>
-
-
 </div>
 <div id="homecontainer2">
 <div class="center">
   <h3>CATEGORIES</h3>
   <h1>Rental <span><b>Car Types</b></span></h1>
-          <img class="car" src="image/image4.jpg" alt="car">
-          <img class="car" src="image/image5.jpg" alt="car">
-          <img class="car" src="image/image6.jpg" alt="car">
+      <div class="links">
+        <a href="car.html"><img class="car" src="image/image4.jpg" alt="car"><h4>luxury Car</h4></a>
+        <a href="car.html"><img class="car" src="image/image5.jpg" alt="car"><h4>Fancy Car</h4></a>
+        <a href="car.html"><img class="car" src="image/image6.jpg" alt="car"><h4>Travels Car</h4></a> 
+      </div>  
 </div>
 </div>
-
 <div class="card2">
         <div class="container4">
           <img class="brand" src="image/3.png" alt="Brand 1">
@@ -92,10 +87,6 @@ function myFunction() {
           <img class="brand" src="image/5.png" alt="Brand 7">
         </div>
 </div>
-
-
-    
-  
 <div class="end2">
   <div class="container6">
     <div class="box6">
@@ -113,16 +104,7 @@ function myFunction() {
   </div>
 </div>
 </body>
-<footer style="text-align: center; color:#f9b954; font-size:large">
-      <p>&copy; 2025 RENAX. All rights reserved.</p>
-    </footer>
-
-
-
-   
-
-
-
-
-
+<footer>
+    <p>&copy; 2025 RENAX. All rights reserved.</p>
+</footer>
 </html>
