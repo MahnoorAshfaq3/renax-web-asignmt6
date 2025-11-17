@@ -7,67 +7,12 @@
 <link rel="stylesheet" href="style.css" />
 <title>Renax Car Rental Website</title>
 </head>
-
-
 <style>
-.full-width {
-  background-color: #0d0d0d;
-  width: 100%;
-  height: 500px;           
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  align-items: center;      
-  text-align: center;
-  padding: 0 20px;
-}
-
-.full-width h1 {
-  color: white;
-  font-size: 5rem;
-  margin-bottom: 20px;
-}
-
-.full-width h1 span {
-  color: #f9b954;
-}
-
-.full-width p {
-  color: #f9b954;
-  font-size: 1.5rem;
- word-spacing: 4px;
-  letter-spacing: 5px;  
-}
-
-/* CARS SECTION */
-/* .container2 {
-  background-color: #1b1b1b;
-  width: 100%;
-  margin: 0;
-  padding: 60px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  background-color: black;
-  border-radius: 10px;
-  width: 550px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-} */
-
-.container2 {
+#carcontainer2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  padding: 40px;
+  padding: 40px;background-color:  #382d1c;
 }
 
 .card {
@@ -126,71 +71,6 @@
 .container3 span {
   color: aliceblue;
 }
-
-/* BRAND LOGOS */
-.card2 {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  background-color: #262626;
-  height: 150px;
-  margin: 50px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.card2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container4 {
-  display: inline;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-.brand {
-  height: 80px;
-  width: auto;
-  object-fit: contain;
-}
-.end2 {
-  text-align: center;
-  padding: 50px;
-  background-color: #000;
-  color: white;
-}
-
-.container6 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.box7 {
-  flex: 1;
-  max-width: 250px;
-  min-width: 200px;
-  margin: 10px;
-  padding: 20px;
-  border: 2px solid ;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  font-size: 16px;
-}
-
-.icon {
-  font-size: 22px;
-  color: #f9b954;
-}
-
 </style>
 <body>
 <div id =header>
@@ -199,7 +79,6 @@
   </div>
   <div class="topnav">
   <a href="index.html" target="_self">Home</a>
-  
   <a href="service.html"target="_self">services</a>
   <a href="car.html"target="_self">car</a>
   <div class=dropdown><a href="">Pages <i class="fa fa-caret-down"></i></a>
@@ -211,7 +90,6 @@
     </div>
     </div>
   <a href="contact.html" target="_self">contact</a>
-
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i></a></div>
   </div>
@@ -226,72 +104,69 @@ function myFunction() {
   }
 }
 </script>
-<div class="full-width">
-       <p>SELECT YOUR CAR</p>
+<section>
+  <div id="service1">
+      <p>SELECT YOUR CAR</p>
       <h1>Select <span>Luxury Cars</span></h1>
-     
+  </div>
+  <div id="carcontainer2">
+    <div class="card">
+        <img class="cars" src="image/7.jpg" alt="Lamborghini Urus" />
+      <div class="container3">
+        <h4>Lamborghini Urus</h4>
+        <p>Price per day <span>800$</span></p>
+      </div>
     </div>
-
-  
-    <section>
-      <div class="container2">
-        <div class="card">
-          <img class="cars" src="image/7.jpg" alt="Lamborghini Urus" />
-          <div class="container3">
-            <h4>Lamborghini Urus</h4>
-            <p>Price per day <span>800$</span></p>
-          </div>
-        </div>
-
-        <div class="card">
+    <div class="card">
           <img class="cars" src="image/8.jpg" alt="Aston Martin DBX" />
-          <div class="container3">
+        <div class="container3">
             <h4>Aston Martin DBX</h4>
             <p>Price per day <span>950$</span></p>
-          </div>
         </div>
-
-        <div class="card">
+    </div>
+    <div class="card">
           <img class="cars" src="image/9.jpg" alt="Bugatti Mistral W16" />
-          <div class="container3">
+        <div class="container3">
             <h4>Bugatti Mistral W16</h4>
             <p>Price per day <span>750$</span></p>
-          </div>
         </div>
-
-        <div class="card">
+    </div>
+    <div class="card">
           <img class="cars" src="image/11.jpg" alt="Bentley Bentayga" />
-          <div class="container3">
+        <div class="container3">
             <h4>Bentley Bentayga</h4>
             <p>Price per day <span>550$</span></p>
-          </div>
         </div>
-         <div class="card">
+    </div>
+    <div class="card">
           <img class="cars" src="image/12.jpg" alt="Rolls Royce Cullinan" />
-          <div class="container3">
+        <div class="container3">
             <h4>Rolls Royce Cullinan</h4>
             <p>Price per day <span>1000$</span></p>
-          </div>
-        </div> <div class="card">
+        </div>
+    </div> 
+    <div class="card">
           <img class="cars" src="image/13.jpg" alt="Bentley Continental" />
           <div class="container3">
             <h4>Bentley Continental</h4>
             <p>Price per day <span>600$</span></p>
           </div>
-        </div> <div class="card">
+    </div>
+    <div class="card">
           <img class="cars" src="image/14.jpg" alt="Audi RS7 Sportback" />
           <div class="container3">
             <h4>Audi RS7 Sportback</h4>
             <p>Price per day <span>600$</span></p>
           </div>
-        </div> <div class="card">
+    </div>
+    <div class="card">
           <img class="cars" src="image/15.jpg" alt="Audi Q8" />
           <div class="container3">
             <h4>Audi Q8</h4>
             <p>Price per day <span>400$</span></p>
           </div>
-        </div>
-         </div>
+    </div>
+    </div>
       <div class="card2">
         <div class="container4">
           <img class="brand" src="image/3.png" alt="Brand 1">
@@ -302,27 +177,27 @@ function myFunction() {
           <img class="brand" src="image/6.png" alt="Brand 6">
           <img class="brand" src="image/5.png" alt="Brand 7">
         </div>
-      </div>
- 
-    </section>
-  </body>
+      </div>  
   <div class="end2">
   <div class="container6">
-    <div class="box7">
+    <div class="box6">
       <i class="fa-solid fa-phone icon"></i>
       +92 300 1234567
     </div>
-    <div class="box7">
+    <div class="box6">
       <i class="fa-solid fa-envelope icon"></i>
       info@carrental.com
     </div>
-    <div class="box7">
+    <div class="box6">
       <i class="fa-solid fa-location-dot icon"></i>
       Karachi, Pakistan
     </div>
   </div>
 </div>
+</section>
+</body>
 <footer style="text-align: center; color:#f9b954; font-size:large">
       <p>&copy; 2025 RENAX. All rights reserved.</p>
-    </footer>
+</footer>
 </html>
+
