@@ -7,10 +7,10 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <style>
-.full-width {
+#service1 {
   background-color: #0d0d0d;
-  width: 100%;
-  min-height: 500px;
+  
+  height: auto;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -19,21 +19,21 @@
   text-align: center;
   padding: 60px 20px;
 }
-.full-width h1 {
+#service1 h1 {
   color: white;
   font-size: 5rem;
   margin-bottom: 20px;
 }
-.full-width h1 span {
+#service1 h1 span {
   color: #f9b954;
 }
-.full-width p {
+#service1 p {
   color: #f9b954;
   font-size: 1.5rem;
   word-spacing: 4px;
   letter-spacing: 5px;  
 }
-.container2 {
+#service2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -41,7 +41,7 @@
   background-color: #1B1B1B;
 }
 
-.card {
+.card1 {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transition: 0.3s;
   background-color: #222;
@@ -50,136 +50,120 @@
   color: white;
 }
 
-.card .cars {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 10px 10px 0 0;
-}
-.container3 {
+.container1 {
   padding: 20px;
   text-align: center;
   background: #262626;
   font-size: 22px;
 }
-.container3 h2 {
+.container1 h2 {
   color: white;
   margin: 10px 0;
   font-size: 28px;
   font-weight: bold;
 }
-.container3 p {
+.container1 p {
   color: white;
   font-weight: lighter;
   font-size: 18px;
 }
-.container3 span {
-  color: aliceblue;
+#service3{
+  background-color: #0d0d0d;
+  height: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px; 
 }
-
-.renting {
+#service3 h1 {
+  color: white;
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+#service3 h1 span {
+  color: #f9b954;
+}
+#service3 p {
+  color: #f9b954;
+  font-size: 1.5rem;
+  word-spacing: 4px;
+  letter-spacing: 5px;  
+}
+#service3 .container2 {
   background-color: #0d0d0d;
   width: 100%;
   padding: 60px 20px;
   text-align: center;
 }
-
-.renting h2 {
+#service3 .container2 li{ color:#f9b954;}
+#service3 .container2 h2 {
   color:#f9b954;
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
-.renting p {
+#service3 .container2 p {
   color:white;
   font-size: 1.5rem;
   max-width: 800px;
   margin: 0 auto 40px auto;
   line-height: 1.6;
 }
-.cat{
-  justify-content: center;
+#service4{
+ 
+  background-color: #222;
+  height: auto;
   align-items: center;
   text-align: center;
-    background-color: #222;
-  width: 100%;
-  padding: 60px 20px;
+  padding: 20px;
+ 
+ 
 }
-.cat p{
+
+#service4 p{
   color:#f9b954;
   font-size: 1.5rem;
   max-width: 800px;
-  margin: 0 auto 40px auto;
+  text-align: center;padding: 0 200px;
   line-height: 1.4;
   letter-spacing: 3px;
 }
-.cat h1{
+#service4 h1{
   color:white;
-   font-size: 4rem;
-  margin-bottom: 20px;
-}
-.card2 {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  background-color: #262626;
-  height: 150px;
-  margin: 50px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.card2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container4 {
-  display: inline;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-.brand {
-  height: 80px;
-  width: auto;
-  object-fit: contain;
-}
-.end2 {
+  font-size: 4rem;
   text-align: center;
-  padding: 50px;
-  background-color: #000;
-  color: white;
 }
 
-.container6 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.box6 {
-  flex: 1;
-  max-width: 250px;
-  min-width: 200px;
-  margin: 10px;
-  padding: 20px;
-  border: 2px solid ;
+#service4 .card3 {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  
+  background-color: #222;
   border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  font-size: 16px;
+  padding: 20px;
+  color: white;margin: 20px;
 }
 
-.icon {
+#service4 .container3 {
+  padding: 20px;
+  text-align: center;
+  background: #262626;
   font-size: 22px;
-  color: #f9b954;
 }
+#service4 .container3 h2 {
+  color: white;
+  margin: 10px 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+#service4 .container3 p {
+  color: white;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
 </style>
 <body>
 <div id =header>
@@ -215,63 +199,63 @@ function myFunction() {
   }
 }
 </script>
-<div class="full-width">
+<section>
+  <div id="service1">
       <p>WHAT WE DO</p>
       <h1>Our <span>Services</span></h1>
-    </div>
+  </div>
            
-   <section>
-  <div class="container2">
-    <div class="card">
-      <div class="container3">
+   
+  <div id="service2">
+    <div class="card1">
+      <div class="container1">
         <h2>Corporate Car Rental</h2>
         <p>Enjoy premium vehicles for your business needs. Whether it’s daily commutes, corporate meetings, or events, we ensure comfort, punctuality, and a professional experience.</p>
       </div>
     </div>
 
-    <div class="card">
-      <div class="container3">
+    <div class="card1">
+      <div class="container1">
         <h2>Airport Transfers</h2>
         <p>Never miss a flight again with our reliable airport transfer service. We provide on-time pickups, spacious cars, and smooth rides to and from the airport.</p>
       </div>
     </div>
 
-    <div class="card">
-      <div class="container3">
+    <div class="card1">
+      <div class="container1">
         <h2>Wedding Cars</h2>
         <p>Make your big day extra special with our elegant wedding cars. Arrive in luxury, style, and comfort, making unforgettable memories for a lifetime.</p>
       </div>
     </div>
 
-    <div class="card">
-      <div class="container3">
+    <div class="card1">
+      <div class="container1">
         <h2>Chauffeur Services</h2>
         <p>Travel stress-free with our professional chauffeurs. Trained, polite, and reliable, they ensure a safe and smooth journey every time.</p>
       </div>
     </div>
 
-    <div class="card">
-      <div class="container3">
+    <div class="card1">
+      <div class="container1">
         <h2>Long-Term Rentals</h2>
         <p>Get cost-effective car rental solutions for weeks or months. Ideal for businesses, expats, and individuals who need reliable vehicles daily.</p>
       </div>
     </div>
 
-    <div class="card">
-      <div class="container3">
+    <div class="card1">
+      <div class="container1">
         <h2>Luxury Cars</h2>
         <p>Turn heads with our range of high-end luxury cars. Perfect for VIP experiences, photoshoots, and special occasions where you deserve the best.</p>
       </div>
     </div>
-
   </div>
   
-   <div class="full-width">
+  <div id="service3">
 
       <p>RENT NOW</p>
       <h1>Book Auto Rental</h1>
     
-      <div class="renting">
+    <div class="container2">
     <ul>
       <li>
         <h2>Explore Our Fleet –</h2>
@@ -297,13 +281,13 @@ function myFunction() {
  </div>
  </div>
 
- <div class="cat">
+ <div id="service4">
       <p>WHAT WE DO</p>
       <h1>Our Other Services</h1>
-    </div>
+    
 
-   <div class="container2">
-    <div class="card">
+   
+    <div class="card3">
       <div class="container3">
         <h2>Daily Car Rental</h2>
         <p>Perfect for long-term travelers, professionals, or businesses. Enjoy the comfort of having your own vehicle all year round with affordable yearly packages, hassle-free maintenance, and reliable service.
@@ -312,7 +296,7 @@ function myFunction() {
       </div>
     </div>
     
-    <div class="card">
+    <div class="card3">
       <div class="container3">
         <h2>Monthly Car Rental</h2>
         <p>Need a car just for a day? Our daily rentals give you the freedom to drive whenever you need, without long commitments. Ideal for city tours, special occasions, or quick business trips.
@@ -321,7 +305,7 @@ function myFunction() {
         </div>
     </div>
      
-    <div class="card">
+    <div class="card3">
       <div class="container3">
         <h2>Annual Car Rental</h2>
         <p>A flexible option for those who need a car for weeks at a time. Save more compared to daily rentals, enjoy extended usage, and switch between different models whenever you want.
@@ -329,7 +313,7 @@ function myFunction() {
         </p>
         </div>
     </div>
-    </div>
+  </div></div>
      <div class="card2">
         <div class="container4">
           <img class="brand" src="image/3.png" alt="Brand 1">
@@ -365,7 +349,3 @@ function myFunction() {
       <p>&copy; 2025 RENAX. All rights reserved.</p>
     </footer>
 </html>
-
-
-
-
